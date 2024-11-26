@@ -1,0 +1,15 @@
+project:
+  name: mode-aggregate-function
+  description: This is a Trino connector
+  license: Apache-2
+  java:
+    groupId: com.github
+    version: 21
+
+files:
+  artifacts:
+    - path: "target/{{projectName}}-{{projectVersion}}.zip"
+
+release:
+  github:
+    owner: sidhant-sundial
